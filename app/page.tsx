@@ -1,7 +1,13 @@
+import { Header, Reviews, Services } from "./components";
+
 export default function Home() {
   return (
     <div>
-      home page
+      <Header />
+
+      <Services />
+
+      <Reviews />
     </div>
   );
 }
