@@ -2,12 +2,16 @@ export function Footer() {
   return (
     <footer className="bg-[#2F6BFF] text-white mt-10">
       <div className="max-w-6xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-3">
-        
+
         {/* Brand */}
         <div>
           <h2 className="text-white text-xl font-bold">Schnettler LLC</h2>
           <p className="mt-2 text-sm text-white-400">
             Fast, dependable service when you need it most. We bring repairs directly to you.
+          </p>
+
+          <p className="text-sm text-white/70 mt-2">
+            Fully insured mobile mechanic service
           </p>
         </div>
 

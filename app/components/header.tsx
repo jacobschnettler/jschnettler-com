@@ -38,7 +38,7 @@ export function Header() {
 
         {/* Small trust line */}
         <p className="mt-8 text-sm text-white/70">
-          Available in Scranton, PA • Emergency roadside assistance • Same-day service
+          ✔ Fully insured • Mobile service • Scranton, PA • Same-day repairs
         </p>
       </div>
     </section>

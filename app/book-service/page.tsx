@@ -26,6 +26,10 @@ export default function BookServicePage() {
           </a>
         </div>
 
+        <p className="text-sm text-gray-500 mt-2">
+          ✔ Fully insured for your protection and peace of mind
+        </p>
+
         {/* CTA button */}
         <div className="mt-6">
           <a
