@@ -1,3 +1,5 @@
+"use client";
+
 import { ContactForm } from "../components";
 
 export default function BookServicePage() {

@@ -43,7 +43,7 @@ export function Navbar() {
           >
             Book Service
           </Link>
-          <Link
+          {/* <Link
             href="/book-service"
             className="bg-white text-[#2F6BFF] px-4 py-2 rounded-md font-bold hover:bg-white/90"
           >
@@ -51,7 +51,7 @@ export function Navbar() {
             <span className="rounded-full bg-blue-600 px-3 py-1 text-xs font-semibold text-white">
               NEW
             </span>
-          </Link>
+          </Link> */}
         </div>
       </div>
 
