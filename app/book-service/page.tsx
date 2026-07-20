@@ -20,6 +20,13 @@ export default function BookServicePage() {
         <div className="mt-6">
           <a
             href="tel:2727720082"
+            onClick={() => {
+              window.gtag?.("event", "conversion", {
+                send_to: "AW-18163716324/aMcyCJ2Zp9McEOShkdVD",
+                value: 1.0,
+                currency: "USD",
+              });
+            }}
             className="text-2xl font-bold text-[#2F6BFF] hover:underline"
           >
             (272) 772-0082

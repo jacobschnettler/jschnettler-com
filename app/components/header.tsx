@@ -29,6 +29,13 @@ export function Header() {
           {/* Phone button */}
           <a
             href="tel:2727720082"
+            onClick={() => {
+              window.gtag?.("event", "conversion", {
+                send_to: "AW-18163716324/aMcyCJ2Zp9McEOShkdVD",
+                value: 1.0,
+                currency: "USD",
+              });
+            }}
             className="bg-black/20 border border-white/30 px-6 py-3 rounded-md font-bold hover:bg-black/30"
           >
             Call: (272) 772-0082
